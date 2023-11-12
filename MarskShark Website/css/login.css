@@ -12,21 +12,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px 10px 0;
+    padding: 10px 20px 10px 0px;
     background-color: #0D1E2E;
     width: 100%;
     color: #fff;
+    position: relative;
 }
-
+.header-text {
+    width: 25%; /* adjust as needed */
+    margin: 0 auto;
+}
 .logo img {
     height: 80px;
     width: 80px;
     margin-left: 10px;
 }
-
-.header-content {
-    display: flex;
-    align-items: center;
+.header-options {
+    position: absolute;
+    right: 50px; /* adjust as needed */
 }
 
 .header-options a {
@@ -35,13 +38,7 @@ header {
     text-decoration: none;
 }
 
-.header-text {
-    margin-left: 0; /* Adjust the margin-left value for the container */
-}
-
-.main-heading {
-    margin: 0; /* Reset margin for the h2 element */
-}
+/* Login Box */
 
 .login-box {
     width: 300px;
