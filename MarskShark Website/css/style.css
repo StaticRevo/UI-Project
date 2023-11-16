@@ -1,0 +1,21 @@
+/* Common CSS */
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 0px;
+    background-color: #0D1E2E;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
